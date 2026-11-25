@@ -8,7 +8,8 @@
 
 2. Estructura del repositorio
 
-Taller1
+```text
+Taller1/
 ├── README.md
 ├── requirements.txt
 ├── datos/
@@ -18,15 +19,16 @@ Taller1
 │   ├── solucion.csv
 │   └── duales.csv
 └── cuaderno.ipynb
+```
 
 3. Instalación y ejecución reproducible
-Todos los parámetros del problema se leen dinámicamente desde la carpeta `datos/` (ningún dato numérico está incrustado en el código).
-python -m venv .venv
-source .venv/bin/activate        # En Windows: .venv\\Scripts\\activate
-pip install -r requirements.txt
+Todos los parámetros del problema se leen dinámicamente desde la carpeta `datos/` (ningún dato numérico está incrustado en el código).\
+python -m venv .venv \
+source .venv/bin/activate        # En Windows: .venv\\Scripts\\activate \
+pip install -r requirements.txt \
 
-Ejecutar el cuaderno de resultados
-jupyter notebook cuaderno.ipynb
-El script resuelve la Parte 1 y la Parte 2 en Pyomo con, ejecuta todas las verificaciones y genera `resultados/solucion.csv` y `resultados/duales.csv`.
+Ejecutar el cuaderno de resultados \
+jupyter notebook cuaderno.ipynb \
+El script resuelve la Parte 1 y la Parte 2 en Pyomo, ejecuta todas las verificaciones y genera `resultados/solucion.csv` y `resultados/duales.csv`. \
 
 Ejecute todas las celdas en orden (Kernel → Restart & Run All).

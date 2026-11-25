@@ -1,14 +1,14 @@
 1. Descripción del problema
    Una planta de manufactura cuenta con 6 celdas robotizadas (C1–C6) y debe procesar 6 órdenes (O1-O6) en un turno, asignando exactamente una orden por celda de manera que se minimice el tiempo total de preparación y proceso (en minutos).
 
-·	Parte 1 : formulación como problema de flujo a costo mínimo con variables continuas, comprobación numérica de la conservación de flujo, demostración de integralidad automática por unimodularidad total (determinantes de submatrices), verificación independiente por tres vías (Algoritmo Húngaro, certificado de dualidad fuerte y enumeración exhaustiva) y lectura económica de los valores duales.
+   Parte 1 : formulación como problema de flujo a costo mínimo con variables continuas, comprobación numérica de la conservación de flujo, demostración de integralidad automática por unimodularidad total (determinantes de submatrices), verificación independiente por tres vías (Algoritmo Húngaro, certificado de dualidad fuerte y enumeración exhaustiva) y lectura económica de los valores duales.
 
-·	Parte 2 : incorporación de la restricción adicional leída desde `datos/restriccion\_adicional.csv` (tope de tiempo conjunto para las celdas `C1` y `C2`), comparación entre la relajación lineal (donde aparecen variables fraccionarias) y el modelo entero binario, cálculo de la brecha de integralidad, demostración matricial de la pérdida de unimodularidad total y análisis de sensibilidad del tope de capacidad.
+   Parte 2 : incorporación de la restricción adicional leída desde `datos/restriccion\_adicional.csv` (tope de tiempo conjunto para las celdas `C1` y `C2`), comparación entre la relajación lineal (donde aparecen variables fraccionarias) y el modelo entero binario, cálculo de la brecha de integralidad, demostración matricial de la pérdida de unimodularidad total y análisis de sensibilidad del tope de capacidad.
 
 
 2. Estructura del repositorio
 
-Taller1/
+Taller1
 ├── README.md
 ├── requirements.txt
 ├── datos/
